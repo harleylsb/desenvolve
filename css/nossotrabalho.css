@@ -1,0 +1,116 @@
+body{
+    background-color: #bc8f8f;
+}
+
+header{
+    background-color: #05022C;
+    padding-bottom: 20px;
+    background: url(../imagens/ceu.png);
+}
+
+@font-face {
+    font-family: RanessaScript;
+    src: url(../fontes/RanessaScript.ttf);
+}
+
+@font-face {
+    font-family: Home;
+    src: url(../fontes/Home.otf);
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 256px;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: RanessaScript;
+}
+
+.titulo-secundario{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    color: #ffffff;
+    font-family: Home;
+}
+
+.centro{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.conteudo{
+    background-color: #05022C;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: RanessaScript;
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 30px;
+}
+
+nav a:hover{
+    color: #FF83C7;
+    text-decoration: overline;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    background-color: #05022C;
+    margin-top: 70px;
+    color: #FFFFFF;
+}
+
+.logo2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 img{
+    width: 90px;
+    padding-top: 20px;
+}
+
+#direitos{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+}

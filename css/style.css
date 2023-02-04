@@ -1,0 +1,171 @@
+body{
+    background-color: #bc8f8f;
+}
+
+header{
+    background-color: #05022C;
+    padding-bottom: 20px;
+    background: url(../imagens/ceu.png);
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 256px;
+}
+
+@font-face {
+    font-family: RanessaScript;
+    src: url(../fontes/RanessaScript.ttf);
+}
+
+@font-face {
+    font-family: Home;
+    src: url(../fontes/Home.otf);
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: RanessaScript;
+}
+
+.titulo-secundario{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    color: #ffffff;
+    font-family: Home;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 30px;
+}
+
+nav a:hover{
+    color: #FF83C7;
+    text-decoration: overline;
+}
+
+.centralizar{
+    text-align: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+h3{
+    padding-top: 20px;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.espaco{
+    padding: 25px 0 10px 0;
+}
+
+.caixa{
+    display: inline;
+    width: 250px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+main li{
+    display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 15px;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    background-color: #05022C;
+}
+
+main li:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    border: 3px solid #FF83C7;
+    background: url(../imagens/ceu.png)
+}
+
+footer{
+    background-color: #05022C;
+    margin-top: 70px;
+}
+
+.botao{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 35%;
+
+}
+
+.botao h3{
+    padding: 10px 0;
+    background-color: #05022C;
+    border-radius: 20px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botao a:hover{
+    color: #FF83C7;
+}
+.botao a:active{
+    color: #00ffff;
+}
+
+.logo2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 img{
+    width: 90px;
+    padding-top: 20px;
+}
+
+#direitos{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+}
